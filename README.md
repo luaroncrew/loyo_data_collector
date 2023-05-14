@@ -70,6 +70,11 @@ nano key.txt
 ```
 insert the private key in this file
 
+```shell
+nano password.txt
+```
+insert the password in this file
+
 then run
 ```shell
 gnfd-cmd gen-key --privKeyFile key.txt key.json
